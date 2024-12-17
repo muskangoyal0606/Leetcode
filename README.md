@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/muskangoyal0606/Leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0136-single-number](https://github.com/muskangoyal0606/Leetcode/tree/master/0136-single-number) |
@@ -70,5 +71,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [3227-find-missing-and-repeated-values](https://github.com/muskangoyal0606/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+## Binary Search
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
