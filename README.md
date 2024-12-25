@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/muskangoyal0606/Leetcode/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/muskangoyal0606/Leetcode/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/muskangoyal0606/Leetcode/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/muskangoyal0606/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [3227-find-missing-and-repeated-values](https://github.com/muskangoyal0606/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Backtracking
 |  |
@@ -107,4 +108,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0054-spiral-matrix) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/muskangoyal0606/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/muskangoyal0606/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/muskangoyal0606/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/muskangoyal0606/Leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
