@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/muskangoyal0606/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/muskangoyal0606/Leetcode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/muskangoyal0606/Leetcode/tree/master/0050-powx-n) |
 | [0204-count-primes](https://github.com/muskangoyal0606/Leetcode/tree/master/0204-count-primes) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/muskangoyal0606/Leetcode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/muskangoyal0606/Leetcode/tree/master/0169-majority-element) |
 | [3227-find-missing-and-repeated-values](https://github.com/muskangoyal0606/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Divide and Conquer
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/muskangoyal0606/Leetcode/tree/master/0013-roman-to-integer) |
 | [0151-reverse-words-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/muskangoyal0606/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Stack
