@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/muskangoyal0606/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/muskangoyal0606/Leetcode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/muskangoyal0606/Leetcode/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/muskangoyal0606/Leetcode/tree/master/0013-roman-to-integer) |
+| [0049-group-anagrams](https://github.com/muskangoyal0606/Leetcode/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/muskangoyal0606/Leetcode/tree/master/0169-majority-element) |
 | [3227-find-missing-and-repeated-values](https://github.com/muskangoyal0606/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Divide and Conquer
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/muskangoyal0606/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/muskangoyal0606/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/muskangoyal0606/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -134,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/muskangoyal0606/Leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/muskangoyal0606/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0049-group-anagrams](https://github.com/muskangoyal0606/Leetcode/tree/master/0049-group-anagrams) |
 | [0151-reverse-words-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0443-string-compression](https://github.com/muskangoyal0606/Leetcode/tree/master/0443-string-compression) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/muskangoyal0606/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
