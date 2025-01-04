@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/muskangoyal0606/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0018-4sum) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/muskangoyal0606/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/muskangoyal0606/Leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/muskangoyal0606/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/muskangoyal0606/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/muskangoyal0606/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/muskangoyal0606/Leetcode/tree/master/0686-repeated-string-match) |
 | [1508-longest-happy-prefix](https://github.com/muskangoyal0606/Leetcode/tree/master/1508-longest-happy-prefix) |
 ## Hash Function
