@@ -4,7 +4,7 @@ class Solution {
         int right = arr.length - 1;
 
         while (left < right) {
-            int mid = left + (right - left) / 2;
+            int mid = (left + right) / 2;
 
             // Check if the mid is in the increasing part of the array
             if (arr[mid] < arr[mid + 1]) {
