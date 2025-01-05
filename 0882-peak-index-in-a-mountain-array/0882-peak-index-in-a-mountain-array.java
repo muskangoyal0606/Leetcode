@@ -1,15 +1,22 @@
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
-        int peakIndex = 0;
-        int maxVal = arr[0];
+        int left = 0;
+        int right = arr.length - 1;
 
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > maxVal) {
-                maxVal = arr[i];
-                peakIndex = i;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+
+            // Check if the mid is in the increasing part of the array
+            if (arr[mid] < arr[mid + 1]) {
+                // Move to the right
+                left = mid + 1;
+            } else {
+                // Move to the left
+                right = mid;
             }
         }
 
-        return peakIndex;
+        // At the end of the binary search, left == right, which points to the peak index
+        return left;
     }
 }
