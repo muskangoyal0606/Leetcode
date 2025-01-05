@@ -17,6 +17,6 @@ class Solution {
         }
 
         // At the end of the binary search, left == right, which points to the peak index
-        return left;
+        return right;
     }
 }
