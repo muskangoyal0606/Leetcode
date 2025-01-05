@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/muskangoyal0606/Leetcode/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/muskangoyal0606/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/muskangoyal0606/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/muskangoyal0606/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Backtracking
 |  |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 ## Greedy
 |  |
 | ------- |
