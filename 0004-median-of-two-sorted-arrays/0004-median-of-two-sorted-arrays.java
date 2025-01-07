@@ -1,75 +1,53 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-         int n = nums1.length;        // Length of first array  
-        int m = nums2.length;        // Length of second array  
-        int[] result = new int[n + m];  // Resultant array of size n + m  
-
-        // Merge the arrays
-        System.arraycopy(nums1, 0, result, 0, n);  
-        System.arraycopy(nums2, 0, result, n, m); 
+       int n1 = nums1.length;  // Length of the first array
+        int n2 = nums2.length;  // Length of the second array
+        int n = n1 + n2;        // Total length of the combined array
         
-        // Sort the merged array using merge sort
-        mergeSort(result, 0, result.length - 1);
+        int ind1 = (n - 1) / 2;  // First median index
+        int ind2 = n / 2;        // Second median index (same as ind1 for odd lengths)
         
-        // Calculate the median
-        int length = result.length;
-        if (length % 2 == 0) {
-            // Even number of elements: take the average of two middle elements
-            return (result[length / 2 - 1] + result[length / 2]) / 2.0;
-        } else {
-            // Odd number of elements: take the middle element
-            return result[length / 2];
-        }
-    }
+        int cnt = 0;   // Count of merged elements so far
+        int i = 0, j = 0;  // Pointers for nums1 and nums2
+        int ind1el = -1, ind2el = -1;  // Median elements
 
-    // Merge sort implementation
-    private void mergeSort(int[] array, int left, int right) {
-        if (left < right) {
-            int mid = left + (right - left) / 2;
-
-            // Recursively sort the two halves
-            mergeSort(array, left, mid);
-            mergeSort(array, mid + 1, right);
-
-            // Merge the sorted halves
-            merge(array, left, mid, right);
-        }
-    }
-
-    private void merge(int[] array, int left, int mid, int right) {
-        int n1 = mid - left + 1; // Size of left subarray
-        int n2 = right - mid;    // Size of right subarray
-
-        // Create temporary arrays
-        int[] leftArray = new int[n1];
-        int[] rightArray = new int[n2];
-
-        // Copy data to temp arrays
-        for (int i = 0; i < n1; i++) {
-            leftArray[i] = array[left + i];
-        }
-        for (int j = 0; j < n2; j++) {
-            rightArray[j] = array[mid + 1 + j];
-        }
-
-        // Merge the temp arrays back into the original array
-        int i = 0, j = 0, k = left;
+        // Traverse nums1 and nums2 simultaneously
         while (i < n1 && j < n2) {
-            if (leftArray[i] <= rightArray[j]) {
-                array[k++] = leftArray[i++];
+            int val;
+            if (nums1[i] <= nums2[j]) {
+                val = nums1[i++];
             } else {
-                array[k++] = rightArray[j++];
+                val = nums2[j++];
             }
+            
+            if (cnt == ind1) ind1el = val;
+            if (cnt == ind2) ind2el = val;
+            cnt++;
         }
 
-        // Copy remaining elements of leftArray, if any
+        // If nums1 has remaining elements
         while (i < n1) {
-            array[k++] = leftArray[i++];
+            if (cnt == ind1) ind1el = nums1[i];
+            if (cnt == ind2) ind2el = nums1[i];
+            i++;
+            cnt++;
         }
 
-        // Copy remaining elements of rightArray, if any
+        // If nums2 has remaining elements
         while (j < n2) {
-            array[k++] = rightArray[j++];
+            if (cnt == ind1) ind1el = nums2[j];
+            if (cnt == ind2) ind2el = nums2[j];
+            j++;
+            cnt++;
+        }
+
+        // Calculate the median
+        if (n % 2 == 1) {
+            // Odd length: median is the middle element
+            return ind1el;
+        } else {
+            // Even length: median is the average of the two middle elements
+            return (ind1el + ind2el) / 2.0;
         }
     }
     
