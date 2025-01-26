@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0018-4sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0037-sudoku-solver](https://github.com/muskangoyal0606/Leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/muskangoyal0606/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/muskangoyal0606/Leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/muskangoyal0606/Leetcode/tree/master/0051-n-queens) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/muskangoyal0606/Leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/muskangoyal0606/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/muskangoyal0606/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/muskangoyal0606/Leetcode/tree/master/0078-subsets) |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/muskangoyal0606/Leetcode/tree/master/0013-roman-to-integer) |
+| [0037-sudoku-solver](https://github.com/muskangoyal0606/Leetcode/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/muskangoyal0606/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/muskangoyal0606/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0169-majority-element](https://github.com/muskangoyal0606/Leetcode/tree/master/0169-majority-element) |
@@ -107,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/muskangoyal0606/Leetcode/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [3227-find-missing-and-repeated-values](https://github.com/muskangoyal0606/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
