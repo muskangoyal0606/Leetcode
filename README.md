@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/muskangoyal0606/Leetcode/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/muskangoyal0606/Leetcode/tree/master/0231-power-of-two) |
 ## Bit Manipulation
 |  |
@@ -231,4 +232,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2662-check-knight-tour-configuration](https://github.com/muskangoyal0606/Leetcode/tree/master/2662-check-knight-tour-configuration) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
