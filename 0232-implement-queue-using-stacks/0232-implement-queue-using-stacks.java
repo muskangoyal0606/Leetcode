@@ -16,7 +16,7 @@ class MyQueue {
         }
         
         // Push new element into s2
-        s2.push(x);
+        s1.push(x);
         
         // Move everything back to s1
         while (!s2.isEmpty()) {
