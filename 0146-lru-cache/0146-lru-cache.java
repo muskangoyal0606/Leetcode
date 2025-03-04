@@ -1,50 +1,76 @@
-
+import java.util.*;
 
 class LRUCache {
+    class Node {
+        int key, value;
+        Node prev, next;
+
+        Node(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+
     private final int capacity;
-    private final Map<Integer, Integer> map; // Stores key-value pairs
-    private final Deque<Integer> queue; // Maintains order of usage
+    private final Map<Integer, Node> map;
+    private final Node head, tail;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
-        this.map = new HashMap<>();
-        this.queue = new LinkedList<>();
+        map = new HashMap<>();
+        
+        head = new Node(-1, -1); // Dummy head
+        tail = new Node(-1, -1); // Dummy tail
+        
+        head.next = tail;
+        tail.prev = head;
     }
 
     public int get(int key) {
         if (!map.containsKey(key)) return -1;
 
-        // Move key to the front since it was recently used
-        queue.remove(key);
-        queue.addFirst(key);
-        return map.get(key);
+        Node node = map.get(key);
+        moveToFront(node);
+        return node.value;
     }
 
     public void put(int key, int value) {
         if (map.containsKey(key)) {
-            // Update value and move key to front
-            map.put(key, value);
-            queue.remove(key);
-            queue.addFirst(key);
+            Node node = map.get(key);
+            node.value = value;
+            moveToFront(node);
             return;
         }
 
-        // If cache is full, remove the least recently used (back of queue)
         if (map.size() >= capacity) {
-            int lru = queue.removeLast();
-            map.remove(lru);
+            removeLRU();
         }
 
-        // Add new key-value pair
-        map.put(key, value);
-        queue.addFirst(key);
+        Node newNode = new Node(key, value);
+        map.put(key, newNode);
+        addToFront(newNode);
+    }
+
+    private void moveToFront(Node node) {
+        removeNode(node);
+        addToFront(node);
+    }
+
+    private void addToFront(Node node) {
+        node.next = head.next;
+        node.prev = head;
+        head.next.prev = node;
+        head.next = node;
+    }
+
+    private void removeNode(Node node) {
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+    }
+
+    private void removeLRU() {
+        Node lru = tail.prev;
+        removeNode(lru);
+        map.remove(lru.key);
     }
 }
-
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */
