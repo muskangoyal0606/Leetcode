@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/muskangoyal0606/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/muskangoyal0606/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/muskangoyal0606/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/muskangoyal0606/Leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/muskangoyal0606/Leetcode/tree/master/0169-majority-element) |
 | [0387-first-unique-character-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/muskangoyal0606/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0092-reverse-linked-list-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0092-reverse-linked-list-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/muskangoyal0606/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/muskangoyal0606/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/muskangoyal0606/Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
@@ -276,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/muskangoyal0606/Leetcode/tree/master/0146-lru-cache) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 ## Monotonic Stack
 |  |
@@ -285,5 +288,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/muskangoyal0606/Leetcode/tree/master/0146-lru-cache) |
 | [0232-implement-queue-using-stacks](https://github.com/muskangoyal0606/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
