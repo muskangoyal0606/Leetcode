@@ -264,12 +264,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0101-symmetric-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0101-symmetric-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [2662-check-knight-tour-configuration](https://github.com/muskangoyal0606/Leetcode/tree/master/2662-check-knight-tour-configuration) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [1036-rotting-oranges](https://github.com/muskangoyal0606/Leetcode/tree/master/1036-rotting-oranges) |
 | [2662-check-knight-tour-configuration](https://github.com/muskangoyal0606/Leetcode/tree/master/2662-check-knight-tour-configuration) |
@@ -313,12 +315,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0101-symmetric-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0101-symmetric-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 <!---LeetCode Topics End-->
