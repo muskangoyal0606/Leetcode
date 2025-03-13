@@ -277,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/muskangoyal0606/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [2662-check-knight-tour-configuration](https://github.com/muskangoyal0606/Leetcode/tree/master/2662-check-knight-tour-configuration) |
 ## Breadth-First Search
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/muskangoyal0606/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -358,9 +360,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/muskangoyal0606/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/muskangoyal0606/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 <!---LeetCode Topics End-->
