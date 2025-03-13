@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0134-gas-station](https://github.com/muskangoyal0606/Leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/muskangoyal0606/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/muskangoyal0606/Leetcode/tree/master/0169-majority-element) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/muskangoyal0606/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/muskangoyal0606/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/muskangoyal0606/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/muskangoyal0606/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/muskangoyal0606/Leetcode/tree/master/0146-lru-cache) |
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/muskangoyal0606/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/muskangoyal0606/Leetcode/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0948-sort-an-array) |
 ## Sorting
@@ -339,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/muskangoyal0606/Leetcode/tree/master/0199-binary-tree-right-side-view) |
@@ -357,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/muskangoyal0606/Leetcode/tree/master/0199-binary-tree-right-side-view) |
