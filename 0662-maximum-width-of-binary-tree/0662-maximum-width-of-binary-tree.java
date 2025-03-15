@@ -13,49 +13,47 @@
  *     }
  * }
  */
+class Pair {
+    TreeNode node;
+    int num;
+    Pair(TreeNode node, int num) {
+        this.node = node;
+        this.num = num;
+    }
+}
+
 class Solution {
-    // Function to calculate the maximum width of the binary tree
     public int widthOfBinaryTree(TreeNode root) {
         if (root == null) return 0;
 
-        int maxWidth = 0;
-        Queue<Pair> queue = new LinkedList<>(); // Pair stores Node and its index
-        queue.offer(new Pair(root, 0));
+        int ans = 0;
+        Queue<Pair> q = new LinkedList<>();
+        q.offer(new Pair(root, 0));
 
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            int firstIndex = queue.peek().index;  // Index of the first node in the current level
-            int lastIndex = queue.peek().index;   // Default last index
+        while (!q.isEmpty()) {
+            int size = q.size();
+            int min = q.peek().num;  // To reset indices for each level
+            int first = 0, last = 0;
 
             for (int i = 0; i < size; i++) {
-                Pair current = queue.poll();
+                Pair current = q.poll();
+                int cur_id = current.num - min; // Normalize current index
                 TreeNode node = current.node;
-                int currentIndex = current.index;
 
-                // Track the last node's index for width calculation
-                lastIndex = currentIndex;
+                if (i == 0) first = cur_id;
+                if (i == size - 1) last = cur_id;
 
-                // Enqueue child nodes with their respective indices
                 if (node.left != null) {
-                    queue.offer(new Pair(node.left, 2 * currentIndex));
+                    q.offer(new Pair(node.left, cur_id * 2 + 1));
                 }
                 if (node.right != null) {
-                    queue.offer(new Pair(node.right, 2 * currentIndex + 1));
+                    q.offer(new Pair(node.right, cur_id * 2 + 2));
                 }
             }
 
-            // Calculate the width of the current level
-            maxWidth = Math.max(maxWidth, lastIndex - firstIndex + 1);
+            ans = Math.max(ans, last - first + 1);
         }
 
-        return maxWidth;
-    }
-}
-class Pair {
-    TreeNode node;
-    int index;
-    Pair(TreeNode node, int index) {
-        this.node = node;
-        this.index = index;
+        return ans;
     }
 }
