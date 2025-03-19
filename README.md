@@ -164,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/muskangoyal0606/Leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Greedy
 |  |
 | ------- |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/muskangoyal0606/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/muskangoyal0606/Leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Merge Sort
 |  |
 | ------- |
@@ -293,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/muskangoyal0606/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/muskangoyal0606/Leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [2662-check-knight-tour-configuration](https://github.com/muskangoyal0606/Leetcode/tree/master/2662-check-knight-tour-configuration) |
 ## Breadth-First Search
 |  |
@@ -307,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/muskangoyal0606/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1036-rotting-oranges](https://github.com/muskangoyal0606/Leetcode/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/muskangoyal0606/Leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [2662-check-knight-tour-configuration](https://github.com/muskangoyal0606/Leetcode/tree/master/2662-check-knight-tour-configuration) |
 ## Linked List
 |  |
@@ -341,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/muskangoyal0606/Leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/muskangoyal0606/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0937-online-stock-span](https://github.com/muskangoyal0606/Leetcode/tree/master/0937-online-stock-span) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/muskangoyal0606/Leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Data Stream
 |  |
 | ------- |
@@ -370,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/muskangoyal0606/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/muskangoyal0606/Leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Binary Tree
 |  |
 | ------- |
