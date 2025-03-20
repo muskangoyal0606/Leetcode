@@ -14,18 +14,26 @@
  * }
  */
 class Solution {
+    int count = 0;    // Counter to track the number of visited nodes
+    int result = -1;  // Variable to store the kth smallest value
+
     public int kthSmallest(TreeNode root, int k) {
-        List<Integer> sortedList = new ArrayList<>();
-        inorderTraversal(root, sortedList);
-        return sortedList.get(k - 1); // Since k is 1-indexed
+        inorderTraversal(root, k);
+        return result;
     }
 
-    // Helper method for inorder traversal
-    private void inorderTraversal(TreeNode node, List<Integer> sortedList) {
+    private void inorderTraversal(TreeNode node, int k) {
         if (node == null) return;
-        
-        inorderTraversal(node.left, sortedList); // Traverse left subtree
-        sortedList.add(node.val);               // Add root value
-        inorderTraversal(node.right, sortedList); // Traverse right subtree
+
+        inorderTraversal(node.left, k);  // Traverse left subtree
+
+        count++;  // Increment counter when a node is visited
+        if (count == k) {
+            result = node.val;  // Found the kth smallest element
+            return;             // Stop traversal early
+        }
+
+        inorderTraversal(node.right, k); // Traverse right subtree
     }
 }
+
