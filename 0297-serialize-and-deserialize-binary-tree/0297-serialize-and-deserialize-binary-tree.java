@@ -1,3 +1,14 @@
+import java.util.StringTokenizer;
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
 public class Codec {
 
     // Encodes a tree to a single string.
@@ -9,7 +20,7 @@ public class Codec {
 
     private void preorder(TreeNode root, StringBuilder sb) {
         if (root == null) {
-            sb.append("null,");
+            sb.append("#,"); // Use "#" instead of "null" to save space
             return;
         }
         sb.append(root.val).append(",");
@@ -19,22 +30,25 @@ public class Codec {
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        String[] a = data.split(",");
-        int[] index = {0}; // Use an array to keep track of index by reference
-        return createTree(a, index);
+        StringTokenizer tokenizer = new StringTokenizer(data, ",");
+        return createTree(tokenizer);
     }
 
-    private TreeNode createTree(String[] a, int[] index) {
-        if (index[0] >= a.length || a[index[0]].equals("null")) {
-            index[0]++;
-            return null;
-        }
+    private TreeNode createTree(StringTokenizer tokenizer) {
+        if (!tokenizer.hasMoreTokens()) return null;
+        
+        String val = tokenizer.nextToken();
+        if (val.equals("#")) return null;
 
-        TreeNode root = new TreeNode(Integer.parseInt(a[index[0]]));
-        index[0]++;
-        root.left = createTree(a, index);
-        root.right = createTree(a, index);
+        TreeNode root = new TreeNode(Integer.parseInt(val));
+        root.left = createTree(tokenizer);
+        root.right = createTree(tokenizer);
 
         return root;
     }
 }
+
+// Your Codec object will be instantiated and called as such:
+// Codec ser = new Codec();
+// Codec deser = new Codec();
+// TreeNode ans = deser.deserialize(ser.serialize(root));
