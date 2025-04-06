@@ -18,14 +18,29 @@
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        inorderHelper(root, result);
+        TreeNode curr = root;
+        
+        while (curr != null) {
+            if (curr.left == null) {
+                result.add(curr.val);
+                curr = curr.right;
+            } else {
+                TreeNode pred = curr.left;
+                while (pred.right != null && pred.right != curr) {
+                    pred = pred.right;
+                }
+                
+                if (pred.right == null) {
+                    pred.right = curr;
+                    curr = curr.left;
+                } else {
+                    pred.right = null;
+                    result.add(curr.val);
+                    curr = curr.right;
+                }
+            }
+        }
+        
         return result;
-    }
-
-    private void inorderHelper(TreeNode node, List<Integer> result) {
-        if (node == null) return;
-        inorderHelper(node.left, result);  // Visit left subtree
-        result.add(node.val);              // Visit root
-        inorderHelper(node.right, result); // Visit right subtree
     }
 }
