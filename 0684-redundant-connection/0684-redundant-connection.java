@@ -1,22 +1,18 @@
 class Solution {
-    public int iscycle(int src, boolean[] visited, Map<Integer, List<Integer>> adj) {
-        Queue<Integer> q = new LinkedList<>();
-        Map<Integer, Integer> parent = new HashMap<>();
-        q.offer(src);
-        visited[src] = true;
-        parent.put(src, -1);
-        while (!q.isEmpty()) {
-            int front = q.poll();
-            for (int n : adj.get(front)) {
-                if (visited[n] && parent.get(front) != n) {
-                    return n;
-                } else if (!visited[n]) {
-                    visited[n] = true;
-                    q.offer(n);
-                    parent.put(n, front);
+    private static int isCyclicDFS(int node, int parent, boolean[] visited, Map<Integer, List<Integer>> adj) {
+        visited[node] = true;
+
+        for (int neighbor : adj.get(node)) {
+            if (!visited[neighbor]) {
+                if (isCyclicDFS(neighbor, node, visited, adj)== neighbor) {
+                    return neighbor;
                 }
+            } else if (neighbor != parent) {
+                // Cycle found
+                return neighbor;
             }
         }
+
         return -1;
     }
 
@@ -39,7 +35,7 @@ class Solution {
 
             // Check cycle
             Arrays.fill(visited, false);
-            if (iscycle(u, visited, adj) != -1) {
+            if (isCyclicDFS(u,-1, visited, adj) != -1) {
                 result = edges[i];
                 return result;
             }
