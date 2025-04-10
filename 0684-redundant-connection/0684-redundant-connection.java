@@ -4,7 +4,7 @@ class Solution {
 
         for (int neighbor : adj.get(node)) {
             if (!visited[neighbor]) {
-                if (isCyclicDFS(neighbor, node, visited, adj)== neighbor) {
+                if (isCyclicDFS(neighbor, node, visited, adj)!=-1) {
                     return neighbor;
                 }
             } else if (neighbor != parent) {
