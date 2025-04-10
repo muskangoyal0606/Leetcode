@@ -7,7 +7,7 @@ class Solution {
         parent.put(src, -1);
         while (!q.isEmpty()) {
             int front = q.poll();
-            for (int n : adj.getOrDefault(front, new ArrayList<>())) {
+            for (int n : adj.get(front)) {
                 if (visited[n] && parent.get(front) != n) {
                     return n;
                 } else if (!visited[n]) {
