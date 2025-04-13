@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0948-sort-an-array) |
 | [1036-rotting-oranges](https://github.com/muskangoyal0606/Leetcode/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1706-min-cost-to-connect-all-points](https://github.com/muskangoyal0606/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2195-time-needed-to-buy-tickets](https://github.com/muskangoyal0606/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2662-check-knight-tour-configuration](https://github.com/muskangoyal0606/Leetcode/tree/master/2662-check-knight-tour-configuration) |
 | [3227-find-missing-and-repeated-values](https://github.com/muskangoyal0606/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -451,13 +452,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0684-redundant-connection](https://github.com/muskangoyal0606/Leetcode/tree/master/0684-redundant-connection) |
+| [1706-min-cost-to-connect-all-points](https://github.com/muskangoyal0606/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Graph
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/muskangoyal0606/Leetcode/tree/master/0207-course-schedule) |
 | [0684-redundant-connection](https://github.com/muskangoyal0606/Leetcode/tree/master/0684-redundant-connection) |
+| [1706-min-cost-to-connect-all-points](https://github.com/muskangoyal0606/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/muskangoyal0606/Leetcode/tree/master/0207-course-schedule) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/muskangoyal0606/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
