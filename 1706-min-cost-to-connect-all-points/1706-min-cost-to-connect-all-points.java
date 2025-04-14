@@ -1,64 +1,80 @@
 import java.util.*;
 
 public class Solution {
+
+    static class Edge {
+        int u, v, weight;
+
+        Edge(int u, int v, int weight) {
+            this.u = u;
+            this.v = v;
+            this.weight = weight;
+        }
+    }
+
+    static class DisjointSet {
+        int[] parent, rank;
+
+        DisjointSet(int n) {
+            parent = new int[n];
+            rank = new int[n];
+            for(int i = 0; i < n; i++) {
+                parent[i] = i;
+                rank[i] = 0;
+            }
+        }
+
+        int findParent(int node) {
+            if (parent[node] == node) return node;
+            return parent[node] = findParent(parent[node]); // Path compression
+        }
+
+        void unionSet(int u, int v) {
+            u = findParent(u);
+            v = findParent(v);
+
+            if (u == v) return;
+
+            if (rank[u] < rank[v]) {
+                parent[u] = v;
+            } else if (rank[v] < rank[u]) {
+                parent[v] = u;
+            } else {
+                parent[v] = u;
+                rank[u]++;
+            }
+        }
+    }
+
     public int minCostConnectPoints(int[][] points) {
         int n = points.length;
+        List<Edge> edges = new ArrayList<>();
 
-        // Step 1: Build adjacency list with Manhattan distances
-        HashMap<Integer, List<int[]>> adj = new HashMap<>();
-        for (int i = 0; i < n; i++) adj.put(i, new ArrayList<>());
-
+        // Build all possible edges with Manhattan distances
         for (int i = 0; i < n; i++) {
-            int[] u = points[i];
-            for (int j = i + 1; j < n; j++) {
-                int[] v = points[j];
-                int dist = Math.abs(u[0] - v[0]) + Math.abs(u[1] - v[1]);
-                adj.get(i).add(new int[]{j, dist});
-                adj.get(j).add(new int[]{i, dist});
+            for (int j = i+1; j < n; j++) {
+                int dist = Math.abs(points[i][0] - points[j][0]) + 
+                           Math.abs(points[i][1] - points[j][1]);
+                edges.add(new Edge(i, j, dist));
             }
         }
 
-        // Step 2: Prim's MST setup
-        int[] key = new int[n];
-        int[] parent = new int[n];
-        boolean[] mst = new boolean[n];
+        // Sort edges by weight
+        Collections.sort(edges, (a, b) -> a.weight - b.weight);
 
-        Arrays.fill(key, Integer.MAX_VALUE);
-        Arrays.fill(parent, -1);
+        DisjointSet ds = new DisjointSet(n);
+        int minCost = 0;
+        int count = 0;
 
-        TreeSet<int[]> set = new TreeSet<>((a, b) -> {
-            if (a[0] != b[0]) return a[0] - b[0]; // by weight
-            return a[1] - b[1]; // by node index
-        });
-
-        key[0] = 0;
-        set.add(new int[]{0, 0}); // {weight, node}
-
-        // Step 3: Prim's algorithm
-        while (!set.isEmpty()) {
-            int[] top = set.pollFirst();
-            int node = top[1];
-            mst[node] = true;
-
-            for (int[] neighbor : adj.get(node)) {
-                int v = neighbor[0];
-                int wt = neighbor[1];
-
-                if (!mst[v] && wt < key[v]) {
-                    set.remove(new int[]{key[v], v});
-                    key[v] = wt;
-                    parent[v] = node;
-                    set.add(new int[]{key[v], v});
-                }
+        for (Edge edge : edges) {
+            if (ds.findParent(edge.u) != ds.findParent(edge.v)) {
+                ds.unionSet(edge.u, edge.v);
+                minCost += edge.weight;
+                count++;
+                if (count == n - 1) break; // MST will have exactly n-1 edges
             }
         }
 
-        // Step 4: Return total cost
-        int totalCost = 0;
-        for (int i = 0; i < n; i++) {
-            totalCost += key[i];
-        }
-
-        return totalCost;
+        return minCost;
     }
 }
