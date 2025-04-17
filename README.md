@@ -265,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/muskangoyal0606/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/muskangoyal0606/Leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/muskangoyal0606/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Merge Sort
 |  |
 | ------- |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/muskangoyal0606/Leetcode/tree/master/0207-course-schedule) |
 | [0684-redundant-connection](https://github.com/muskangoyal0606/Leetcode/tree/master/0684-redundant-connection) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/muskangoyal0606/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1706-min-cost-to-connect-all-points](https://github.com/muskangoyal0606/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
@@ -471,4 +473,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/muskangoyal0606/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+## Shortest Path
+|  |
+| ------- |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/muskangoyal0606/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 <!---LeetCode Topics End-->
