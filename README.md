@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/muskangoyal0606/Leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/muskangoyal0606/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/muskangoyal0606/Leetcode/tree/master/0169-majority-element) |
+| [0200-number-of-islands](https://github.com/muskangoyal0606/Leetcode/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/muskangoyal0606/Leetcode/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/muskangoyal0606/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/muskangoyal0606/Leetcode/tree/master/0239-sliding-window-maximum) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/muskangoyal0606/Leetcode/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/muskangoyal0606/Leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/muskangoyal0606/Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/muskangoyal0606/Leetcode/tree/master/1036-rotting-oranges) |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/muskangoyal0606/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0145-binary-tree-postorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/muskangoyal0606/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/muskangoyal0606/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/muskangoyal0606/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/muskangoyal0606/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -329,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/muskangoyal0606/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/muskangoyal0606/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/muskangoyal0606/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/muskangoyal0606/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -466,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/muskangoyal0606/Leetcode/tree/master/0200-number-of-islands) |
 | [0684-redundant-connection](https://github.com/muskangoyal0606/Leetcode/tree/master/0684-redundant-connection) |
 | [1706-min-cost-to-connect-all-points](https://github.com/muskangoyal0606/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Graph
