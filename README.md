@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/muskangoyal0606/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/muskangoyal0606/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/muskangoyal0606/Leetcode/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/muskangoyal0606/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/muskangoyal0606/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/muskangoyal0606/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/muskangoyal0606/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/muskangoyal0606/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Enumeration
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/muskangoyal0606/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/muskangoyal0606/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/muskangoyal0606/Leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/muskangoyal0606/Leetcode/tree/master/0733-flood-fill) |
@@ -232,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/muskangoyal0606/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/muskangoyal0606/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/muskangoyal0606/Leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/muskangoyal0606/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -306,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/muskangoyal0606/Leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/muskangoyal0606/Leetcode/tree/master/0099-recover-binary-search-tree) |
