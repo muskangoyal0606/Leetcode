@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/muskangoyal0606/Leetcode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/muskangoyal0606/Leetcode/tree/master/0231-power-of-two) |
+| [0287-find-the-duplicate-number](https://github.com/muskangoyal0606/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/muskangoyal0606/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Array
 |  |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/muskangoyal0606/Leetcode/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/muskangoyal0606/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/muskangoyal0606/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0287-find-the-duplicate-number](https://github.com/muskangoyal0606/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0496-next-greater-element-i](https://github.com/muskangoyal0606/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/muskangoyal0606/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/muskangoyal0606/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0234-palindrome-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0287-find-the-duplicate-number](https://github.com/muskangoyal0606/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0443-string-compression](https://github.com/muskangoyal0606/Leetcode/tree/master/0443-string-compression) |
 | [0908-middle-of-the-linked-list](https://github.com/muskangoyal0606/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Matrix
@@ -182,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/muskangoyal0606/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/muskangoyal0606/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0287-find-the-duplicate-number](https://github.com/muskangoyal0606/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/muskangoyal0606/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/muskangoyal0606/Leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
