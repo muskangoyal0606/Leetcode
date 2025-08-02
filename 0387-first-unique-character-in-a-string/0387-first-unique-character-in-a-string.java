@@ -1,19 +1,16 @@
 class Solution {
     public int firstUniqChar(String s) {
-        int[] char_count = new int[26];
-        
-        // Count occurrences of each character
-        for (int i = 0; i < s.length(); i++) {
-            char_count[s.charAt(i) - 'a']++;
+        Map<Character,Integer> m = new HashMap<>();
+        int f=0;
+        for(char c:s.toCharArray()){
+            m.put(c,m.getOrDefault(c,0)+1);
+            
         }
-        
-        // Find the first unique character
-        for (int i = 0; i < s.length(); i++) {
-            if (char_count[s.charAt(i) - 'a'] == 1) {
+        for(int i=0;i<s.length();i++){
+            if(m.get(s.charAt(i))==1){
                 return i;
             }
         }
-        
-        return -1; // No unique character found
+        return -1;
     }
 }
