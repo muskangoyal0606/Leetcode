@@ -1,19 +1,18 @@
-import java.util.Stack;
-
 class StockSpanner {
-    private Stack<int[]> stack;
-
+    public Stack<int[]> s;
     public StockSpanner() {
-        stack = new Stack<>();
+        s = new Stack<>();
     }
     
     public int next(int price) {
-        int span = 1;
-        while (!stack.isEmpty() && stack.peek()[0] <= price) {
-            span += stack.pop()[1];
+        int ans=1;
+        while(!s.isEmpty() && price >= s.peek()[0]){
+         ans = ans + s.pop()[1];
         }
-        stack.push(new int[]{price, span});
-        return span;
+        
+        s.push(new int[]{price,ans});
+
+        return ans;
     }
 }
 
