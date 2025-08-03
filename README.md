@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/muskangoyal0606/Leetcode/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1706-min-cost-to-connect-all-points](https://github.com/muskangoyal0606/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+| [1985-maximum-subarray-min-product](https://github.com/muskangoyal0606/Leetcode/tree/master/1985-maximum-subarray-min-product) |
 | [2195-time-needed-to-buy-tickets](https://github.com/muskangoyal0606/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2662-check-knight-tour-configuration](https://github.com/muskangoyal0606/Leetcode/tree/master/2662-check-knight-tour-configuration) |
 | [3227-find-missing-and-repeated-values](https://github.com/muskangoyal0606/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/muskangoyal0606/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/muskangoyal0606/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1985-maximum-subarray-min-product](https://github.com/muskangoyal0606/Leetcode/tree/master/1985-maximum-subarray-min-product) |
 ## Simulation
 |  |
 | ------- |
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0937-online-stock-span](https://github.com/muskangoyal0606/Leetcode/tree/master/0937-online-stock-span) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1985-maximum-subarray-min-product](https://github.com/muskangoyal0606/Leetcode/tree/master/1985-maximum-subarray-min-product) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/muskangoyal0606/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Trie
 |  |
@@ -414,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/muskangoyal0606/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0937-online-stock-span](https://github.com/muskangoyal0606/Leetcode/tree/master/0937-online-stock-span) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/muskangoyal0606/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1985-maximum-subarray-min-product](https://github.com/muskangoyal0606/Leetcode/tree/master/1985-maximum-subarray-min-product) |
 ## Design
 |  |
 | ------- |
