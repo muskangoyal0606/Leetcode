@@ -13,24 +13,24 @@
  *     }
  * }
  */
-import java.util.*;
-
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
-        levelOrderHelper(root, 0, result);
+        helper(root,0,result);
         return result;
+
     }
-
-    private void levelOrderHelper(TreeNode node, int level, List<List<Integer>> result) {
-        if (node == null) return;
-
-        if (result.size() == level) {
+    public void helper(TreeNode root, int level, List<List<Integer>> result){
+        if(root==null){
+            return;
+        }
+        if(result.size()==level){
             result.add(new ArrayList<>());
         }
-
-        result.get(level).add(node.val);
-        levelOrderHelper(node.left, level + 1, result);
-        levelOrderHelper(node.right, level + 1, result);
+        result.get(level).add(root.val);
+        helper(root.left,level+1,result);
+        helper(root.right,level+1,result);
     }
+
+    
 }
