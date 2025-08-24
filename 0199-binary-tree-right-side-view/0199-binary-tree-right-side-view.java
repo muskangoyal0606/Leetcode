@@ -23,7 +23,7 @@ class Solution {
         if(root==null){
             return;
         }
-        if(level==result.size()){
+        if(level == result.size()){
             result.add(root.val);
         }
         helper(root.right,result,level+1);
