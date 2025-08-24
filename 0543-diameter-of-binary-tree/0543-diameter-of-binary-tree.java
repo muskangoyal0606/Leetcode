@@ -23,14 +23,16 @@ class Solution {
 
     }
     public int h(TreeNode root){
-        if(root==null) return 0;
-
+        if(root == null){
+            return 0;
+        }
         int lefth = h(root.left);
-        int righth =h(root.right);
+        int righth = h(root.right);
 
         dia = Math.max(dia, lefth+righth);
 
         return 1 + Math.max(lefth,righth);
+        
     }
     
 }
