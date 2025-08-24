@@ -14,25 +14,21 @@
  * }
  */
 class Solution {
-    private int leftmostValue;
-    private int maxDepth = -1;
-
     public int findBottomLeftValue(TreeNode root) {
-        dfs(root, 0);
-        return leftmostValue;
+         List<Integer> result = new ArrayList<>();
+        helper(root, result,0);
+        return result.get(result.size()-1);
     }
-
-    private void dfs(TreeNode node, int depth) {
-        if (node == null) return;
-
-        // If this is the first node encountered at this depth, update leftmostValue
-        if (depth > maxDepth) {
-            maxDepth = depth;
-            leftmostValue = node.val;
+    public void helper(TreeNode root, List<Integer> result,int level){
+        if(root==null){
+            return;
         }
-
-        // Traverse left first to prioritize leftmost nodes
-        dfs(node.left, depth + 1);
-        dfs(node.right, depth + 1);
+        if(level == result.size()){
+            result.add(root.val);
+        }
+        helper(root.left,result,level+1);
+        helper(root.right,result,level+1);
+        
+        
     }
 }
