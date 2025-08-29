@@ -14,29 +14,34 @@
  * }
  */
 class Solution {
+    private Map<Integer, Integer> inorderIndexMap;
+    private int preorderIndex;
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        Map<Integer, Integer> inMap = new HashMap<>();
+        inorderIndexMap = new HashMap<>();
+        preorderIndex = inorder.length-1;
+
+        // Store value -> index from inorder for quick lookup
         for (int i = 0; i < inorder.length; i++) {
-            inMap.put(inorder[i], i);
+            inorderIndexMap.put(inorder[i], i);
         }
-        return buildTree(postorder, 0, postorder.length - 1, inorder, 0, inorder.length - 1, inMap);
+
+        return build(postorder, 0, inorder.length - 1);
+        
     }
+    private TreeNode build(int[] postorder, int left, int right) {
+        if (left > right) return null;
 
-    private TreeNode buildTree(int[] postorder, int posStart, int posEnd, 
-                               int[] inorder, int inStart, int inEnd, 
-                               Map<Integer, Integer> inMap) {
-        if (posStart > posEnd || inStart > inEnd) {
-            return null;
-        }
+        // Pick current root from preorder
+        int rootVal = postorder[preorderIndex--];
+        TreeNode root = new TreeNode(rootVal);
 
-        TreeNode root = new TreeNode(postorder[posEnd]);
-        int inRoot = inMap.get(root.val);
-        int numsLeft = inRoot - inStart;
+        // Find index of root in inorder
+        int rootIndex = inorderIndexMap.get(rootVal);
 
-        root.left = buildTree(postorder, posStart, posStart + numsLeft - 1,
-                              inorder, inStart, inRoot - 1, inMap);
-        root.right = buildTree(postorder, posStart + numsLeft, posEnd - 1,
-                               inorder, inRoot + 1, inEnd, inMap);
+        // Recursively build left & right subtrees
+        root.right = build(postorder, rootIndex + 1, right);
+        root.left = build(postorder, left, rootIndex - 1);
+        
 
         return root;
     }
