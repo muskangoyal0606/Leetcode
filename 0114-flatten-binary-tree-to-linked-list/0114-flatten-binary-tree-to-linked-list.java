@@ -15,28 +15,28 @@
  */
 class Solution {
     public void flatten(TreeNode root) {
-        dfs(root);
-    }
+        if (root == null) return;
 
-    private TreeNode[] dfs(TreeNode node) {
-        if (node == null) return new TreeNode[]{null, null};
+        // Flatten left & right subtrees first (post-order)
+        flatten(root.left);
+        flatten(root.right);
 
-        TreeNode[] left = dfs(node.left);
-        TreeNode[] right = dfs(node.right);
+        // Save the right subtree
+        TreeNode tempRight = root.right;
 
-        node.left = null;  // Set left child to null as per the requirements
-        TreeNode end = node;
+        // Move left subtree to right
+        root.right = root.left;
+        root.left = null;
 
-        if (left[0] != null) {
-            end.right = left[0];
-            end = left[1];
+        // Find the tail of new right subtree
+        TreeNode curr = root;
+        while (curr.right != null) {
+            curr = curr.right;
         }
 
-        if (right[0] != null) {
-            end.right = right[0];
-            end = right[1];
-        }
+        // Attach the saved right subtree
+        curr.right = tempRight;
 
-        return new TreeNode[]{node, end};
+
     }
 }
